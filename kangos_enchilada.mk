@@ -38,6 +38,10 @@ USE_GAPPS := true
 # Face Unlock
 TARGET_FACE_UNLOCK_SUPPORTED := true
 
+# Maintainer
+PRODUCT_PRODUCT_PROPERTIES += \
+  ro.kangos.maintainer=Chandu
+
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := kangos_enchilada
 PRODUCT_DEVICE := enchilada
